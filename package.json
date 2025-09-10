@@ -5,7 +5,8 @@
     "main": "dist/index.js",
     "scripts": {
         "build": "tsc",
-        "start": "node dist/index.js"
+        "start": "node dist/index.js",
+        "build-start": "npm run build && npm start"
     },
     "keywords": [
         "NERO",
@@ -19,6 +20,7 @@
         "typescript": "^5.0.0"
     },
     "dependencies": {
-        "axios": "^1.6.0"
+        "axios": "^1.6.0",
+        "gate-api": "^6.104.3"
     }
 }
