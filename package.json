@@ -1,0 +1,24 @@
+{
+    "name": "nero-blockchain-info-fetcher",
+    "version": "1.0.0",
+    "description": "NEROブロックチェーンの情報取得に特化したTypeScriptプロジェクト",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js"
+    },
+    "keywords": [
+        "NERO",
+        "blockchain",
+        "typescript"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^24.3.1",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "axios": "^1.6.0"
+    }
+}
